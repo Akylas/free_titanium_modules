@@ -1,0 +1,13 @@
+tmp
+bin
+build
+*.zip
+.apt_generated
+.settings
+.classPath
+build.properties
+dist
+project.xcworkspace
+xcuserdata
+.svn
+libs
