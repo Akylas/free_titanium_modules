@@ -1,0 +1,1135 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		24DD6CF91134B3F500162E58 /* XeroxSipModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* XeroxSipModule.h */; };
+		24DD6CFA1134B3F500162E58 /* XeroxSipModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* XeroxSipModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* XeroxSipModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* XeroxSipModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* XeroxSipModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* XeroxSipModuleAssets.m */; };
+		AA747D9F0F9514B9006C5449 /* XeroxSip_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* XeroxSip_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		D5FCCEB915E4CD9B00BFA9D2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCEB815E4CD9B00BFA9D2 /* OpenGLES.framework */; };
+		D5FCCEBB15E4CDB100BFA9D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCEBA15E4CDB100BFA9D2 /* UIKit.framework */; };
+		D5FCCEBD15E4CDB700BFA9D2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCEBC15E4CDB700BFA9D2 /* CFNetwork.framework */; };
+		D5FCCEBF15E4CDBE00BFA9D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCEBE15E4CDBE00BFA9D2 /* CoreGraphics.framework */; };
+		D5FCCEC315E4CDD200BFA9D2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCEC215E4CDD200BFA9D2 /* CoreMedia.framework */; };
+		D5FCCEC515E4CDD700BFA9D2 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCEC415E4CDD700BFA9D2 /* CoreVideo.framework */; };
+		D5FCCEC715E4CDDE00BFA9D2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCEC615E4CDDE00BFA9D2 /* SystemConfiguration.framework */; };
+		D5FCCEC915E4CDF500BFA9D2 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCEC815E4CDF500BFA9D2 /* libsqlite3.0.dylib */; };
+		D5FCCECB15E4CDFB00BFA9D2 /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCECA15E4CDFB00BFA9D2 /* libresolv.dylib */; };
+		D5FCCECC15E4CE1300BFA9D2 /* libios_ngn_stack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCE6515E4CBDE00BFA9D2 /* libios_ngn_stack.a */; };
+		D5FCCECD15E4CE1C00BFA9D2 /* libtinySAK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCE6715E4CBDE00BFA9D2 /* libtinySAK.a */; };
+		D5FCCECE15E4CE1C00BFA9D2 /* libtinyNET.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCE6915E4CBDE00BFA9D2 /* libtinyNET.a */; };
+		D5FCCECF15E4CE1C00BFA9D2 /* libtinySDP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCE6B15E4CBDE00BFA9D2 /* libtinySDP.a */; };
+		D5FCCED015E4CE1C00BFA9D2 /* libtinyRTP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCE6D15E4CBDE00BFA9D2 /* libtinyRTP.a */; };
+		D5FCCED115E4CE1C00BFA9D2 /* libtinyIPSec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCE6F15E4CBDE00BFA9D2 /* libtinyIPSec.a */; };
+		D5FCCED215E4CE1C00BFA9D2 /* libtinyMSRP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCE7115E4CBDE00BFA9D2 /* libtinyMSRP.a */; };
+		D5FCCED315E4CE1C00BFA9D2 /* libtinyHTTP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCE7315E4CBDE00BFA9D2 /* libtinyHTTP.a */; };
+		D5FCCED415E4CE1C00BFA9D2 /* libtinyMEDIA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCE7515E4CBDE00BFA9D2 /* libtinyMEDIA.a */; };
+		D5FCCED515E4CE1C00BFA9D2 /* libtinySIGCOMP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCE7715E4CBDE00BFA9D2 /* libtinySIGCOMP.a */; };
+		D5FCCED615E4CE1C00BFA9D2 /* libtinySMS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCE7915E4CBDE00BFA9D2 /* libtinySMS.a */; };
+		D5FCCED715E4CE1C00BFA9D2 /* libtinyXCAP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCE7B15E4CBDE00BFA9D2 /* libtinyXCAP.a */; };
+		D5FCCED815E4CE1C00BFA9D2 /* libtinySIP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCE7D15E4CBDE00BFA9D2 /* libtinySIP.a */; };
+		D5FCCED915E4CE1C00BFA9D2 /* libtinyDAV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCE7F15E4CBDE00BFA9D2 /* libtinyDAV.a */; };
+		D5FCCEDA15E4CE1C00BFA9D2 /* libtinyWRAP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCE8115E4CBDE00BFA9D2 /* libtinyWRAP.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = xerox_sip;
+		};
+		D5FCCE6415E4CBDE00BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = "ios-ngn-stack";
+		};
+		D5FCCE6615E4CBDE00BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFD2426135D584100E6A9A3;
+			remoteInfo = tinySAK;
+		};
+		D5FCCE6815E4CBDE00BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFD24ED135D58EB00E6A9A3;
+			remoteInfo = tinyNET;
+		};
+		D5FCCE6A15E4CBDE00BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFD25F7135D5CD100E6A9A3;
+			remoteInfo = tinySDP;
+		};
+		D5FCCE6C15E4CBDE00BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFD2693135D5DDD00E6A9A3;
+			remoteInfo = tinyRTP;
+		};
+		D5FCCE6E15E4CBDE00BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFD2767135E79B800E6A9A3;
+			remoteInfo = tinyIPSec;
+		};
+		D5FCCE7015E4CBDE00BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFD279B135E7A0200E6A9A3;
+			remoteInfo = tinyMSRP;
+		};
+		D5FCCE7215E4CBDE00BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFD2851135E7ABA00E6A9A3;
+			remoteInfo = tinyHTTP;
+		};
+		D5FCCE7415E4CBDE00BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFD2CDE135E7C7D00E6A9A3;
+			remoteInfo = tinyMEDIA;
+		};
+		D5FCCE7615E4CBDE00BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFD2D5A135E7CD800E6A9A3;
+			remoteInfo = tinySIGCOMP;
+		};
+		D5FCCE7815E4CBDE00BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFD2E02135E7D1000E6A9A3;
+			remoteInfo = tinySMS;
+		};
+		D5FCCE7A15E4CBDE00BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFD2E5B135E7D3600E6A9A3;
+			remoteInfo = tinyXCAP;
+		};
+		D5FCCE7C15E4CBDE00BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFD2E9A135E7D6D00E6A9A3;
+			remoteInfo = tinySIP;
+		};
+		D5FCCE7E15E4CBDE00BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFD3171135E7DA100E6A9A3;
+			remoteInfo = tinyDAV;
+		};
+		D5FCCE8015E4CBDE00BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFD32AE135E821000E6A9A3;
+			remoteInfo = tinyWRAP;
+		};
+		D5FCCE8215E4CBDE00BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EC83BA14136990B700DD3355;
+			remoteInfo = testRegistration;
+		};
+		D5FCCE8415E4CBDE00BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EC83BA1C136990C800DD3355;
+			remoteInfo = testAudioCall;
+		};
+		D5FCCE8615E4CBDE00BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EC83BA27136990DA00DD3355;
+			remoteInfo = testVideoCall;
+		};
+		D5FCCE8815E4CBDE00BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EC81BD50136C5B3D0068BCB4;
+			remoteInfo = testAudioUnit;
+		};
+		D5FCCE8A15E4CBDE00BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EC7D39511379ED2A0052CE45;
+			remoteInfo = testMessaging;
+		};
+		D5FCCE8C15E4CBDE00BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFDFB0F13A9675700D4C62A;
+			remoteInfo = testPresence;
+		};
+		D5FCCF3915E4E49000BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = "ios-ngn-stack";
+		};
+		D5FCCF3B15E4E49000BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFD2425135D584100E6A9A3;
+			remoteInfo = tinySAK;
+		};
+		D5FCCF3D15E4E49000BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFD24EC135D58EB00E6A9A3;
+			remoteInfo = tinyNET;
+		};
+		D5FCCF3F15E4E49000BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFD25F6135D5CD100E6A9A3;
+			remoteInfo = tinySDP;
+		};
+		D5FCCF4115E4E49000BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFD2692135D5DDD00E6A9A3;
+			remoteInfo = tinyRTP;
+		};
+		D5FCCF4315E4E49000BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFD2766135E79B800E6A9A3;
+			remoteInfo = tinyIPSec;
+		};
+		D5FCCF4515E4E49000BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFD279A135E7A0200E6A9A3;
+			remoteInfo = tinyMSRP;
+		};
+		D5FCCF4715E4E49000BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFD2850135E7ABA00E6A9A3;
+			remoteInfo = tinyHTTP;
+		};
+		D5FCCF4915E4E49000BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFD2CDD135E7C7D00E6A9A3;
+			remoteInfo = tinyMEDIA;
+		};
+		D5FCCF4B15E4E49000BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFD2D59135E7CD800E6A9A3;
+			remoteInfo = tinySIGCOMP;
+		};
+		D5FCCF4D15E4E49000BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFD2E01135E7D1000E6A9A3;
+			remoteInfo = tinySMS;
+		};
+		D5FCCF4F15E4E49000BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFD2E5A135E7D3600E6A9A3;
+			remoteInfo = tinyXCAP;
+		};
+		D5FCCF5115E4E49000BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFD2E99135E7D6D00E6A9A3;
+			remoteInfo = tinySIP;
+		};
+		D5FCCF5315E4E49000BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFD3170135E7DA100E6A9A3;
+			remoteInfo = tinyDAV;
+		};
+		D5FCCF5515E4E49000BFA9D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFD32AD135E821000E6A9A3;
+			remoteInfo = tinyWRAP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DD6CF71134B3F500162E58 /* XeroxSipModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XeroxSipModule.h; path = Classes/XeroxSipModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* XeroxSipModule.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = XeroxSipModule.m; path = Classes/XeroxSipModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* XeroxSipModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XeroxSipModuleAssets.h; path = Classes/XeroxSipModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* XeroxSipModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XeroxSipModuleAssets.m; path = Classes/XeroxSipModuleAssets.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* XeroxSip_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XeroxSip_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libXeroxSip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXeroxSip.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58A0F8015E5293000D731C5 /* module.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = module.xcconfig; sourceTree = "<group>"; };
+		D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "ios-ngn-stack.xcodeproj"; path = "../mydoubs/iPhone/idoubs/branches/2.0/ios-ngn-stack/ios-ngn-stack.xcodeproj"; sourceTree = "<group>"; };
+		D5FCCEB815E4CD9B00BFA9D2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		D5FCCEBA15E4CDB100BFA9D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D5FCCEBC15E4CDB700BFA9D2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D5FCCEBE15E4CDBE00BFA9D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D5FCCEC015E4CDC500BFA9D2 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		D5FCCEC215E4CDD200BFA9D2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D5FCCEC415E4CDD700BFA9D2 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		D5FCCEC615E4CDDE00BFA9D2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D5FCCEC815E4CDF500BFA9D2 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		D5FCCECA15E4CDFB00BFA9D2 /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FCCECB15E4CDFB00BFA9D2 /* libresolv.dylib in Frameworks */,
+				D5FCCEC915E4CDF500BFA9D2 /* libsqlite3.0.dylib in Frameworks */,
+				D5FCCEC715E4CDDE00BFA9D2 /* SystemConfiguration.framework in Frameworks */,
+				D5FCCEC515E4CDD700BFA9D2 /* CoreVideo.framework in Frameworks */,
+				D5FCCEC315E4CDD200BFA9D2 /* CoreMedia.framework in Frameworks */,
+				D5FCCEBF15E4CDBE00BFA9D2 /* CoreGraphics.framework in Frameworks */,
+				D5FCCEBD15E4CDB700BFA9D2 /* CFNetwork.framework in Frameworks */,
+				D5FCCECC15E4CE1300BFA9D2 /* libios_ngn_stack.a in Frameworks */,
+				D5FCCEBB15E4CDB100BFA9D2 /* UIKit.framework in Frameworks */,
+				D5FCCECD15E4CE1C00BFA9D2 /* libtinySAK.a in Frameworks */,
+				D5FCCECE15E4CE1C00BFA9D2 /* libtinyNET.a in Frameworks */,
+				D5FCCECF15E4CE1C00BFA9D2 /* libtinySDP.a in Frameworks */,
+				D5FCCED015E4CE1C00BFA9D2 /* libtinyRTP.a in Frameworks */,
+				D5FCCED115E4CE1C00BFA9D2 /* libtinyIPSec.a in Frameworks */,
+				D5FCCED215E4CE1C00BFA9D2 /* libtinyMSRP.a in Frameworks */,
+				D5FCCED315E4CE1C00BFA9D2 /* libtinyHTTP.a in Frameworks */,
+				D5FCCED415E4CE1C00BFA9D2 /* libtinyMEDIA.a in Frameworks */,
+				D5FCCED515E4CE1C00BFA9D2 /* libtinySIGCOMP.a in Frameworks */,
+				D5FCCED615E4CE1C00BFA9D2 /* libtinySMS.a in Frameworks */,
+				D5FCCED715E4CE1C00BFA9D2 /* libtinyXCAP.a in Frameworks */,
+				D5FCCED815E4CE1C00BFA9D2 /* libtinySIP.a in Frameworks */,
+				D5FCCED915E4CE1C00BFA9D2 /* libtinyDAV.a in Frameworks */,
+				D5FCCEDA15E4CE1C00BFA9D2 /* libtinyWRAP.a in Frameworks */,
+				D5FCCEB915E4CD9B00BFA9D2 /* OpenGLES.framework in Frameworks */,
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libXeroxSip.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* xerox_sip */ = {
+			isa = PBXGroup;
+			children = (
+				D5FCCECA15E4CDFB00BFA9D2 /* libresolv.dylib */,
+				D5FCCEC815E4CDF500BFA9D2 /* libsqlite3.0.dylib */,
+				D5FCCEC615E4CDDE00BFA9D2 /* SystemConfiguration.framework */,
+				D5FCCEC415E4CDD700BFA9D2 /* CoreVideo.framework */,
+				D5FCCEC215E4CDD200BFA9D2 /* CoreMedia.framework */,
+				D5FCCEC015E4CDC500BFA9D2 /* CoreMIDI.framework */,
+				D5FCCEBE15E4CDBE00BFA9D2 /* CoreGraphics.framework */,
+				D5FCCEBC15E4CDB700BFA9D2 /* CFNetwork.framework */,
+				D5FCCEBA15E4CDB100BFA9D2 /* UIKit.framework */,
+				D5FCCEB815E4CD9B00BFA9D2 /* OpenGLES.framework */,
+				D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = xerox_sip;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				24DE9E0F11C5FE74003F90F6 /* XeroxSipModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* XeroxSipModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* XeroxSipModule.h */,
+				24DD6CF81134B3F500162E58 /* XeroxSipModule.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* XeroxSip_Prefix.pch */,
+				D58A0F8015E5293000D731C5 /* module.xcconfig */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		D5FCCE4C15E4CBDE00BFA9D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5FCCE6515E4CBDE00BFA9D2 /* libios_ngn_stack.a */,
+				D5FCCE6715E4CBDE00BFA9D2 /* libtinySAK.a */,
+				D5FCCE6915E4CBDE00BFA9D2 /* libtinyNET.a */,
+				D5FCCE6B15E4CBDE00BFA9D2 /* libtinySDP.a */,
+				D5FCCE6D15E4CBDE00BFA9D2 /* libtinyRTP.a */,
+				D5FCCE6F15E4CBDE00BFA9D2 /* libtinyIPSec.a */,
+				D5FCCE7115E4CBDE00BFA9D2 /* libtinyMSRP.a */,
+				D5FCCE7315E4CBDE00BFA9D2 /* libtinyHTTP.a */,
+				D5FCCE7515E4CBDE00BFA9D2 /* libtinyMEDIA.a */,
+				D5FCCE7715E4CBDE00BFA9D2 /* libtinySIGCOMP.a */,
+				D5FCCE7915E4CBDE00BFA9D2 /* libtinySMS.a */,
+				D5FCCE7B15E4CBDE00BFA9D2 /* libtinyXCAP.a */,
+				D5FCCE7D15E4CBDE00BFA9D2 /* libtinySIP.a */,
+				D5FCCE7F15E4CBDE00BFA9D2 /* libtinyDAV.a */,
+				D5FCCE8115E4CBDE00BFA9D2 /* libtinyWRAP.a */,
+				D5FCCE8315E4CBDE00BFA9D2 /* testRegistration.app */,
+				D5FCCE8515E4CBDE00BFA9D2 /* testAudioCall.app */,
+				D5FCCE8715E4CBDE00BFA9D2 /* testVideoCall.app */,
+				D5FCCE8915E4CBDE00BFA9D2 /* testAudioUnit.app */,
+				D5FCCE8B15E4CBDE00BFA9D2 /* testMessaging.app */,
+				D5FCCE8D15E4CBDE00BFA9D2 /* testPresence.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* XeroxSip_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* XeroxSipModule.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* XeroxSipModuleAssets.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* xerox_sip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "xerox_sip" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5FCCF3A15E4E49000BFA9D2 /* PBXTargetDependency */,
+				D5FCCF3C15E4E49000BFA9D2 /* PBXTargetDependency */,
+				D5FCCF3E15E4E49000BFA9D2 /* PBXTargetDependency */,
+				D5FCCF4015E4E49000BFA9D2 /* PBXTargetDependency */,
+				D5FCCF4215E4E49000BFA9D2 /* PBXTargetDependency */,
+				D5FCCF4415E4E49000BFA9D2 /* PBXTargetDependency */,
+				D5FCCF4615E4E49000BFA9D2 /* PBXTargetDependency */,
+				D5FCCF4815E4E49000BFA9D2 /* PBXTargetDependency */,
+				D5FCCF4A15E4E49000BFA9D2 /* PBXTargetDependency */,
+				D5FCCF4C15E4E49000BFA9D2 /* PBXTargetDependency */,
+				D5FCCF4E15E4E49000BFA9D2 /* PBXTargetDependency */,
+				D5FCCF5015E4E49000BFA9D2 /* PBXTargetDependency */,
+				D5FCCF5215E4E49000BFA9D2 /* PBXTargetDependency */,
+				D5FCCF5415E4E49000BFA9D2 /* PBXTargetDependency */,
+				D5FCCF5615E4E49000BFA9D2 /* PBXTargetDependency */,
+			);
+			name = xerox_sip;
+			productName = xerox_sip;
+			productReference = D2AAC07E0554694100DB518D /* libXeroxSip.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "xerox_sip" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* xerox_sip */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D5FCCE4C15E4CBDE00BFA9D2 /* Products */;
+					ProjectRef = D5FCCE4B15E4CBDE00BFA9D2 /* ios-ngn-stack.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* xerox_sip */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D5FCCE6515E4CBDE00BFA9D2 /* libios_ngn_stack.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libios_ngn_stack.a;
+			remoteRef = D5FCCE6415E4CBDE00BFA9D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D5FCCE6715E4CBDE00BFA9D2 /* libtinySAK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinySAK.a;
+			remoteRef = D5FCCE6615E4CBDE00BFA9D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D5FCCE6915E4CBDE00BFA9D2 /* libtinyNET.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyNET.a;
+			remoteRef = D5FCCE6815E4CBDE00BFA9D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D5FCCE6B15E4CBDE00BFA9D2 /* libtinySDP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinySDP.a;
+			remoteRef = D5FCCE6A15E4CBDE00BFA9D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D5FCCE6D15E4CBDE00BFA9D2 /* libtinyRTP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyRTP.a;
+			remoteRef = D5FCCE6C15E4CBDE00BFA9D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D5FCCE6F15E4CBDE00BFA9D2 /* libtinyIPSec.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyIPSec.a;
+			remoteRef = D5FCCE6E15E4CBDE00BFA9D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D5FCCE7115E4CBDE00BFA9D2 /* libtinyMSRP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyMSRP.a;
+			remoteRef = D5FCCE7015E4CBDE00BFA9D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D5FCCE7315E4CBDE00BFA9D2 /* libtinyHTTP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyHTTP.a;
+			remoteRef = D5FCCE7215E4CBDE00BFA9D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D5FCCE7515E4CBDE00BFA9D2 /* libtinyMEDIA.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyMEDIA.a;
+			remoteRef = D5FCCE7415E4CBDE00BFA9D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D5FCCE7715E4CBDE00BFA9D2 /* libtinySIGCOMP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinySIGCOMP.a;
+			remoteRef = D5FCCE7615E4CBDE00BFA9D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D5FCCE7915E4CBDE00BFA9D2 /* libtinySMS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinySMS.a;
+			remoteRef = D5FCCE7815E4CBDE00BFA9D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D5FCCE7B15E4CBDE00BFA9D2 /* libtinyXCAP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyXCAP.a;
+			remoteRef = D5FCCE7A15E4CBDE00BFA9D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D5FCCE7D15E4CBDE00BFA9D2 /* libtinySIP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinySIP.a;
+			remoteRef = D5FCCE7C15E4CBDE00BFA9D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D5FCCE7F15E4CBDE00BFA9D2 /* libtinyDAV.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyDAV.a;
+			remoteRef = D5FCCE7E15E4CBDE00BFA9D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D5FCCE8115E4CBDE00BFA9D2 /* libtinyWRAP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyWRAP.a;
+			remoteRef = D5FCCE8015E4CBDE00BFA9D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D5FCCE8315E4CBDE00BFA9D2 /* testRegistration.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = testRegistration.app;
+			remoteRef = D5FCCE8215E4CBDE00BFA9D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D5FCCE8515E4CBDE00BFA9D2 /* testAudioCall.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = testAudioCall.app;
+			remoteRef = D5FCCE8415E4CBDE00BFA9D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D5FCCE8715E4CBDE00BFA9D2 /* testVideoCall.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = testVideoCall.app;
+			remoteRef = D5FCCE8615E4CBDE00BFA9D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D5FCCE8915E4CBDE00BFA9D2 /* testAudioUnit.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = testAudioUnit.app;
+			remoteRef = D5FCCE8815E4CBDE00BFA9D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D5FCCE8B15E4CBDE00BFA9D2 /* testMessaging.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = testMessaging.app;
+			remoteRef = D5FCCE8A15E4CBDE00BFA9D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D5FCCE8D15E4CBDE00BFA9D2 /* testPresence.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = testPresence.app;
+			remoteRef = D5FCCE8C15E4CBDE00BFA9D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DD6CFA1134B3F500162E58 /* XeroxSipModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* XeroxSipModuleAssets.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* xerox_sip */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+		D5FCCF3A15E4E49000BFA9D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ios-ngn-stack";
+			targetProxy = D5FCCF3915E4E49000BFA9D2 /* PBXContainerItemProxy */;
+		};
+		D5FCCF3C15E4E49000BFA9D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinySAK;
+			targetProxy = D5FCCF3B15E4E49000BFA9D2 /* PBXContainerItemProxy */;
+		};
+		D5FCCF3E15E4E49000BFA9D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinyNET;
+			targetProxy = D5FCCF3D15E4E49000BFA9D2 /* PBXContainerItemProxy */;
+		};
+		D5FCCF4015E4E49000BFA9D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinySDP;
+			targetProxy = D5FCCF3F15E4E49000BFA9D2 /* PBXContainerItemProxy */;
+		};
+		D5FCCF4215E4E49000BFA9D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinyRTP;
+			targetProxy = D5FCCF4115E4E49000BFA9D2 /* PBXContainerItemProxy */;
+		};
+		D5FCCF4415E4E49000BFA9D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinyIPSec;
+			targetProxy = D5FCCF4315E4E49000BFA9D2 /* PBXContainerItemProxy */;
+		};
+		D5FCCF4615E4E49000BFA9D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinyMSRP;
+			targetProxy = D5FCCF4515E4E49000BFA9D2 /* PBXContainerItemProxy */;
+		};
+		D5FCCF4815E4E49000BFA9D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinyHTTP;
+			targetProxy = D5FCCF4715E4E49000BFA9D2 /* PBXContainerItemProxy */;
+		};
+		D5FCCF4A15E4E49000BFA9D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinyMEDIA;
+			targetProxy = D5FCCF4915E4E49000BFA9D2 /* PBXContainerItemProxy */;
+		};
+		D5FCCF4C15E4E49000BFA9D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinySIGCOMP;
+			targetProxy = D5FCCF4B15E4E49000BFA9D2 /* PBXContainerItemProxy */;
+		};
+		D5FCCF4E15E4E49000BFA9D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinySMS;
+			targetProxy = D5FCCF4D15E4E49000BFA9D2 /* PBXContainerItemProxy */;
+		};
+		D5FCCF5015E4E49000BFA9D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinyXCAP;
+			targetProxy = D5FCCF4F15E4E49000BFA9D2 /* PBXContainerItemProxy */;
+		};
+		D5FCCF5215E4E49000BFA9D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinySIP;
+			targetProxy = D5FCCF5115E4E49000BFA9D2 /* PBXContainerItemProxy */;
+		};
+		D5FCCF5415E4E49000BFA9D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinyDAV;
+			targetProxy = D5FCCF5315E4E49000BFA9D2 /* PBXContainerItemProxy */;
+		};
+		D5FCCF5615E4E49000BFA9D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinyWRAP;
+			targetProxy = D5FCCF5515E4E49000BFA9D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DOUBANGO_HOME = ../mydoubs/doubango/branches/2.0/doubango;
+				DOUBANGO_LIBS = $DOUBANGO_HOME/thirdparties/iphone/lib/i386;
+				"DOUBANGO_LIBS[arch=armv6]" = $DOUBANGO_HOME/thirdparties/iphone/lib/armv6;
+				"DOUBANGO_LIBS[arch=armv7]" = $DOUBANGO_HOME/thirdparties/iphone/lib/armv7;
+				"DOUBANGO_LIBS[sdk=iphonesimulator*]" = $DOUBANGO_HOME/thirdparties/iphone/lib/i386;
+				DSTROOT = /tmp/XeroxSip.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = XeroxSip_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(TITANIUM_BASE_SDK)",
+					"$(TITANIUM_BASE_SDK2)",
+					"$NGN_STACK_HOME/common-ngn-stack",
+					"$NGN_STACK_HOME/ios-ngn-stack",
+					$DOUBANGO_HOME/bindings/_common,
+					$DOUBANGO_HOME/tinySDP/include,
+					$DOUBANGO_HOME/tinySMS/include,
+					$DOUBANGO_HOME/tinyHTTP/include,
+					$DOUBANGO_HOME/tinySIP/include,
+					$DOUBANGO/HOME/tinyMSRP/include,
+					$DOUBANGO_HOME/tinyMEDIA/include,
+					$DOUBANGO_HOME/tinyNET/src,
+					$DOUBANGO_HOME/tinySAK/src,
+					$DOUBANGO_HOME/tinyDAV/include,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = $DOUBANGO_LIBS;
+				NGN_STACK_HOME = ../mydoubs/iPhone/idoubs/branches/2.0;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lsrtp",
+					"-lssl",
+					"-lcrypto",
+					"-ltheora",
+					"-lvorbis",
+					"-logg",
+					"-lyuv",
+					"-lvpx",
+					"-lx264",
+					"-lswscale",
+					"-lavcore",
+					"-lavutil",
+					"-lavcodec",
+					"-lg729b",
+					"-lspeex",
+					"-lspeexdsp",
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = XeroxSip;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "armv6 armv7 i386";
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				DOUBANGO_HOME = ../mydoubs/doubango/branches/2.0/doubango;
+				DOUBANGO_LIBS = $DOUBANGO_HOME/thirdparties/iphone/lib/i386;
+				"DOUBANGO_LIBS[arch=armv6]" = $DOUBANGO_HOME/thirdparties/iphone/lib/armv6;
+				"DOUBANGO_LIBS[arch=armv7]" = $DOUBANGO_HOME/thirdparties/iphone/lib/armv7;
+				"DOUBANGO_LIBS[sdk=iphonesimulator*]" = $DOUBANGO_HOME/thirdparties/iphone/lib/i386;
+				DSTROOT = /tmp/XeroxSip.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = XeroxSip_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(TITANIUM_BASE_SDK)",
+					"$(TITANIUM_BASE_SDK2)",
+					"$NGN_STACK_HOME/common-ngn-stack",
+					"$NGN_STACK_HOME/ios-ngn-stack",
+					$DOUBANGO_HOME/bindings/_common,
+					$DOUBANGO_HOME/tinySDP/include,
+					$DOUBANGO_HOME/tinySMS/include,
+					$DOUBANGO_HOME/tinyHTTP/include,
+					$DOUBANGO_HOME/tinySIP/include,
+					$DOUBANGO/HOME/tinyMSRP/include,
+					$DOUBANGO_HOME/tinyMEDIA/include,
+					$DOUBANGO_HOME/tinyNET/src,
+					$DOUBANGO_HOME/tinySAK/src,
+					$DOUBANGO_HOME/tinyDAV/include,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = $DOUBANGO_LIBS;
+				NGN_STACK_HOME = ../mydoubs/iPhone/idoubs/branches/2.0;
+				OTHER_CFLAGS = (
+					"-DTI_POST_1_2",
+					"-DNS_BLOCK_ASSERTIONS=1",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lsrtp",
+					"-lssl",
+					"-lcrypto",
+					"-ltheora",
+					"-lvorbis",
+					"-logg",
+					"-lyuv",
+					"-lvpx",
+					"-lx264",
+					"-lswscale",
+					"-lavcore",
+					"-lavutil",
+					"-lavcodec",
+					"-lg729b",
+					"-lspeex",
+					"-lspeexdsp",
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = XeroxSip;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "armv6 armv7 i386";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/XeroxSip.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = XeroxSip_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = XeroxSip;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				DSTROOT = /tmp/XeroxSip.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = XeroxSip_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = XeroxSip;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "xerox_sip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "xerox_sip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

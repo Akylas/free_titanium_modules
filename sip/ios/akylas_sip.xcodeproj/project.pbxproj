@@ -1,0 +1,910 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		24DD6CF91134B3F500162E58 /* AkylasSipModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* AkylasSipModule.h */; };
+		24DD6CFA1134B3F500162E58 /* AkylasSipModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* AkylasSipModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* AkylasSipModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* AkylasSipModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* AkylasSipModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* AkylasSipModuleAssets.m */; };
+		AA747D9F0F9514B9006C5449 /* AkylasSip_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* AkylasSip_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		D5FCCEB915E4CD9B00BFA9D2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCEB815E4CD9B00BFA9D2 /* OpenGLES.framework */; };
+		D5FCCEBB15E4CDB100BFA9D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCEBA15E4CDB100BFA9D2 /* UIKit.framework */; };
+		D5FCCEBD15E4CDB700BFA9D2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCEBC15E4CDB700BFA9D2 /* CFNetwork.framework */; };
+		D5FCCEBF15E4CDBE00BFA9D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCEBE15E4CDBE00BFA9D2 /* CoreGraphics.framework */; };
+		D5FCCEC315E4CDD200BFA9D2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCEC215E4CDD200BFA9D2 /* CoreMedia.framework */; };
+		D5FCCEC515E4CDD700BFA9D2 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCEC415E4CDD700BFA9D2 /* CoreVideo.framework */; };
+		D5FCCEC715E4CDDE00BFA9D2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCEC615E4CDDE00BFA9D2 /* SystemConfiguration.framework */; };
+		D5FCCEC915E4CDF500BFA9D2 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCEC815E4CDF500BFA9D2 /* libsqlite3.0.dylib */; };
+		D5FCCECB15E4CDFB00BFA9D2 /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCECA15E4CDFB00BFA9D2 /* libresolv.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = akylas_sip;
+		};
+		D56626AE1605C562003E892C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = "ios-ngn-stack";
+		};
+		D56626B01605C562003E892C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFD2426135D584100E6A9A3;
+			remoteInfo = tinySAK;
+		};
+		D56626B21605C562003E892C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFD24ED135D58EB00E6A9A3;
+			remoteInfo = tinyNET;
+		};
+		D56626B41605C562003E892C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFD25F7135D5CD100E6A9A3;
+			remoteInfo = tinySDP;
+		};
+		D56626B61605C562003E892C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFD2693135D5DDD00E6A9A3;
+			remoteInfo = tinyRTP;
+		};
+		D56626B81605C562003E892C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFD2767135E79B800E6A9A3;
+			remoteInfo = tinyIPSec;
+		};
+		D56626BA1605C562003E892C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFD279B135E7A0200E6A9A3;
+			remoteInfo = tinyMSRP;
+		};
+		D56626BC1605C562003E892C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFD2851135E7ABA00E6A9A3;
+			remoteInfo = tinyHTTP;
+		};
+		D56626BE1605C562003E892C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFD2CDE135E7C7D00E6A9A3;
+			remoteInfo = tinyMEDIA;
+		};
+		D56626C01605C562003E892C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFD2D5A135E7CD800E6A9A3;
+			remoteInfo = tinySIGCOMP;
+		};
+		D56626C21605C562003E892C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFD2E02135E7D1000E6A9A3;
+			remoteInfo = tinySMS;
+		};
+		D56626C41605C562003E892C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFD2E5B135E7D3600E6A9A3;
+			remoteInfo = tinyXCAP;
+		};
+		D56626C61605C562003E892C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFD2E9A135E7D6D00E6A9A3;
+			remoteInfo = tinySIP;
+		};
+		D56626C81605C562003E892C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFD3171135E7DA100E6A9A3;
+			remoteInfo = tinyDAV;
+		};
+		D56626CA1605C562003E892C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFD32AE135E821000E6A9A3;
+			remoteInfo = tinyWRAP;
+		};
+		D56626CC1605C562003E892C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EC83BA14136990B700DD3355;
+			remoteInfo = testRegistration;
+		};
+		D56626CE1605C562003E892C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EC83BA1C136990C800DD3355;
+			remoteInfo = testAudioCall;
+		};
+		D56626D01605C562003E892C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EC83BA27136990DA00DD3355;
+			remoteInfo = testVideoCall;
+		};
+		D56626D21605C562003E892C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EC81BD50136C5B3D0068BCB4;
+			remoteInfo = testAudioUnit;
+		};
+		D56626D41605C562003E892C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EC7D39511379ED2A0052CE45;
+			remoteInfo = testMessaging;
+		};
+		D56626D61605C562003E892C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ECFDFB0F13A9675700D4C62A;
+			remoteInfo = testPresence;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DD6CF71134B3F500162E58 /* AkylasSipModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AkylasSipModule.h; path = Classes/AkylasSipModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* AkylasSipModule.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = AkylasSipModule.m; path = Classes/AkylasSipModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* AkylasSipModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AkylasSipModuleAssets.h; path = Classes/AkylasSipModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* AkylasSipModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AkylasSipModuleAssets.m; path = Classes/AkylasSipModuleAssets.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* AkylasSip_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AkylasSip_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libAkylasSip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAkylasSip.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "ios-ngn-stack.xcodeproj"; path = "../../../mydoubs/iPhone/idoubs/branches/2.0/ios-ngn-stack/ios-ngn-stack.xcodeproj"; sourceTree = "<group>"; };
+		D58A0F8015E5293000D731C5 /* module.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = module.xcconfig; sourceTree = "<group>"; };
+		D5FCCEB815E4CD9B00BFA9D2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		D5FCCEBA15E4CDB100BFA9D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D5FCCEBC15E4CDB700BFA9D2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D5FCCEBE15E4CDBE00BFA9D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D5FCCEC015E4CDC500BFA9D2 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		D5FCCEC215E4CDD200BFA9D2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D5FCCEC415E4CDD700BFA9D2 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		D5FCCEC615E4CDDE00BFA9D2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D5FCCEC815E4CDF500BFA9D2 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		D5FCCECA15E4CDFB00BFA9D2 /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FCCECB15E4CDFB00BFA9D2 /* libresolv.dylib in Frameworks */,
+				D5FCCEC915E4CDF500BFA9D2 /* libsqlite3.0.dylib in Frameworks */,
+				D5FCCEC715E4CDDE00BFA9D2 /* SystemConfiguration.framework in Frameworks */,
+				D5FCCEC515E4CDD700BFA9D2 /* CoreVideo.framework in Frameworks */,
+				D5FCCEC315E4CDD200BFA9D2 /* CoreMedia.framework in Frameworks */,
+				D5FCCEBF15E4CDBE00BFA9D2 /* CoreGraphics.framework in Frameworks */,
+				D5FCCEBD15E4CDB700BFA9D2 /* CFNetwork.framework in Frameworks */,
+				D5FCCEBB15E4CDB100BFA9D2 /* UIKit.framework in Frameworks */,
+				D5FCCEB915E4CD9B00BFA9D2 /* OpenGLES.framework in Frameworks */,
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libAkylasSip.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* akylas_sip */ = {
+			isa = PBXGroup;
+			children = (
+				D5FCCECA15E4CDFB00BFA9D2 /* libresolv.dylib */,
+				D5FCCEC815E4CDF500BFA9D2 /* libsqlite3.0.dylib */,
+				D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */,
+				D5FCCEC615E4CDDE00BFA9D2 /* SystemConfiguration.framework */,
+				D5FCCEC415E4CDD700BFA9D2 /* CoreVideo.framework */,
+				D5FCCEC215E4CDD200BFA9D2 /* CoreMedia.framework */,
+				D5FCCEC015E4CDC500BFA9D2 /* CoreMIDI.framework */,
+				D5FCCEBE15E4CDBE00BFA9D2 /* CoreGraphics.framework */,
+				D5FCCEBC15E4CDB700BFA9D2 /* CFNetwork.framework */,
+				D5FCCEBA15E4CDB100BFA9D2 /* UIKit.framework */,
+				D5FCCEB815E4CD9B00BFA9D2 /* OpenGLES.framework */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = akylas_sip;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				24DE9E0F11C5FE74003F90F6 /* AkylasSipModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* AkylasSipModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* AkylasSipModule.h */,
+				24DD6CF81134B3F500162E58 /* AkylasSipModule.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* AkylasSip_Prefix.pch */,
+				D58A0F8015E5293000D731C5 /* module.xcconfig */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		D566268D1605C561003E892C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D56626AF1605C562003E892C /* libios_ngn_stack.a */,
+				D56626B11605C562003E892C /* libtinySAK.a */,
+				D56626B31605C562003E892C /* libtinyNET.a */,
+				D56626B51605C562003E892C /* libtinySDP.a */,
+				D56626B71605C562003E892C /* libtinyRTP.a */,
+				D56626B91605C562003E892C /* libtinyIPSec.a */,
+				D56626BB1605C562003E892C /* libtinyMSRP.a */,
+				D56626BD1605C562003E892C /* libtinyHTTP.a */,
+				D56626BF1605C562003E892C /* libtinyMEDIA.a */,
+				D56626C11605C562003E892C /* libtinySIGCOMP.a */,
+				D56626C31605C562003E892C /* libtinySMS.a */,
+				D56626C51605C562003E892C /* libtinyXCAP.a */,
+				D56626C71605C562003E892C /* libtinySIP.a */,
+				D56626C91605C562003E892C /* libtinyDAV.a */,
+				D56626CB1605C562003E892C /* libtinyWRAP.a */,
+				D56626CD1605C562003E892C /* testRegistration.app */,
+				D56626CF1605C562003E892C /* testAudioCall.app */,
+				D56626D11605C562003E892C /* testVideoCall.app */,
+				D56626D31605C562003E892C /* testAudioUnit.app */,
+				D56626D51605C562003E892C /* testMessaging.app */,
+				D56626D71605C562003E892C /* testPresence.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* AkylasSip_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* AkylasSipModule.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* AkylasSipModuleAssets.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* akylas_sip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "akylas_sip" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = akylas_sip;
+			productName = akylas_sip;
+			productReference = D2AAC07E0554694100DB518D /* libAkylasSip.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "akylas_sip" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* akylas_sip */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D566268D1605C561003E892C /* Products */;
+					ProjectRef = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* akylas_sip */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D56626AF1605C562003E892C /* libios_ngn_stack.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libios_ngn_stack.a;
+			remoteRef = D56626AE1605C562003E892C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D56626B11605C562003E892C /* libtinySAK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinySAK.a;
+			remoteRef = D56626B01605C562003E892C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D56626B31605C562003E892C /* libtinyNET.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyNET.a;
+			remoteRef = D56626B21605C562003E892C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D56626B51605C562003E892C /* libtinySDP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinySDP.a;
+			remoteRef = D56626B41605C562003E892C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D56626B71605C562003E892C /* libtinyRTP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyRTP.a;
+			remoteRef = D56626B61605C562003E892C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D56626B91605C562003E892C /* libtinyIPSec.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyIPSec.a;
+			remoteRef = D56626B81605C562003E892C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D56626BB1605C562003E892C /* libtinyMSRP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyMSRP.a;
+			remoteRef = D56626BA1605C562003E892C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D56626BD1605C562003E892C /* libtinyHTTP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyHTTP.a;
+			remoteRef = D56626BC1605C562003E892C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D56626BF1605C562003E892C /* libtinyMEDIA.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyMEDIA.a;
+			remoteRef = D56626BE1605C562003E892C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D56626C11605C562003E892C /* libtinySIGCOMP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinySIGCOMP.a;
+			remoteRef = D56626C01605C562003E892C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D56626C31605C562003E892C /* libtinySMS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinySMS.a;
+			remoteRef = D56626C21605C562003E892C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D56626C51605C562003E892C /* libtinyXCAP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyXCAP.a;
+			remoteRef = D56626C41605C562003E892C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D56626C71605C562003E892C /* libtinySIP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinySIP.a;
+			remoteRef = D56626C61605C562003E892C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D56626C91605C562003E892C /* libtinyDAV.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyDAV.a;
+			remoteRef = D56626C81605C562003E892C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D56626CB1605C562003E892C /* libtinyWRAP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtinyWRAP.a;
+			remoteRef = D56626CA1605C562003E892C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D56626CD1605C562003E892C /* testRegistration.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = testRegistration.app;
+			remoteRef = D56626CC1605C562003E892C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D56626CF1605C562003E892C /* testAudioCall.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = testAudioCall.app;
+			remoteRef = D56626CE1605C562003E892C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D56626D11605C562003E892C /* testVideoCall.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = testVideoCall.app;
+			remoteRef = D56626D01605C562003E892C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D56626D31605C562003E892C /* testAudioUnit.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = testAudioUnit.app;
+			remoteRef = D56626D21605C562003E892C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D56626D51605C562003E892C /* testMessaging.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = testMessaging.app;
+			remoteRef = D56626D41605C562003E892C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D56626D71605C562003E892C /* testPresence.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = testPresence.app;
+			remoteRef = D56626D61605C562003E892C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DD6CFA1134B3F500162E58 /* AkylasSipModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* AkylasSipModuleAssets.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* akylas_sip */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DOUBANGO_HOME = ../../../mydoubs/doubango/branches/2.0/doubango;
+				DOUBANGO_LIBS = $DOUBANGO_HOME/thirdparties/iphone/lib/i386;
+				"DOUBANGO_LIBS[arch=armv6]" = $DOUBANGO_HOME/thirdparties/iphone/lib/armv6;
+				"DOUBANGO_LIBS[arch=armv7]" = $DOUBANGO_HOME/thirdparties/iphone/lib/armv7;
+				"DOUBANGO_LIBS[sdk=iphonesimulator*]" = $DOUBANGO_HOME/thirdparties/iphone/lib/i386;
+				DSTROOT = /tmp/AkylasSip.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AkylasSip_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(TITANIUM_BASE_SDK)",
+					"$(TITANIUM_BASE_SDK2)",
+					"$NGN_STACK_HOME/common-ngn-stack",
+					"$NGN_STACK_HOME/ios-ngn-stack",
+					$DOUBANGO_HOME/bindings/_common,
+					$DOUBANGO_HOME/tinySDP/include,
+					$DOUBANGO_HOME/tinySMS/include,
+					$DOUBANGO_HOME/tinyHTTP/include,
+					$DOUBANGO_HOME/tinySIP/include,
+					$DOUBANGO_HOME/tinyMSRP/include,
+					$DOUBANGO_HOME/tinyMEDIA/include,
+					$DOUBANGO_HOME/tinyNET/src,
+					$DOUBANGO_HOME/tinySAK/src,
+					$DOUBANGO_HOME/tinyDAV/include,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = $DOUBANGO_LIBS;
+				NGN_STACK_HOME = ../../../mydoubs/iPhone/idoubs/branches/2.0;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lsrtp",
+					"-lssl",
+					"-lcrypto",
+					"-ltheora",
+					"-lvorbis",
+					"-logg",
+					"-lyuv",
+					"-lvpx",
+					"-lx264",
+					"-lswscale",
+					"-lavcore",
+					"-lavutil",
+					"-lavcodec",
+					"-lg729b",
+					"-lspeex",
+					"-lspeexdsp",
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = AkylasSip;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "armv6 armv7 i386";
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				DOUBANGO_HOME = ../../../mydoubs/doubango/branches/2.0/doubango;
+				DOUBANGO_LIBS = $DOUBANGO_HOME/thirdparties/iphone/lib/i386;
+				"DOUBANGO_LIBS[arch=armv6]" = $DOUBANGO_HOME/thirdparties/iphone/lib/armv6;
+				"DOUBANGO_LIBS[arch=armv7]" = $DOUBANGO_HOME/thirdparties/iphone/lib/armv7;
+				"DOUBANGO_LIBS[sdk=iphonesimulator*]" = $DOUBANGO_HOME/thirdparties/iphone/lib/i386;
+				DSTROOT = /tmp/AkylasSip.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AkylasSip_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(TITANIUM_BASE_SDK)",
+					"$(TITANIUM_BASE_SDK2)",
+					"$NGN_STACK_HOME/common-ngn-stack",
+					"$NGN_STACK_HOME/ios-ngn-stack",
+					$DOUBANGO_HOME/bindings/_common,
+					$DOUBANGO_HOME/tinySDP/include,
+					$DOUBANGO_HOME/tinySMS/include,
+					$DOUBANGO_HOME/tinyHTTP/include,
+					$DOUBANGO_HOME/tinySIP/include,
+					$DOUBANGO_HOME/tinyMSRP/include,
+					$DOUBANGO_HOME/tinyMEDIA/include,
+					$DOUBANGO_HOME/tinyNET/src,
+					$DOUBANGO_HOME/tinySAK/src,
+					$DOUBANGO_HOME/tinyDAV/include,
+				);
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = $DOUBANGO_LIBS;
+				NGN_STACK_HOME = ../../../mydoubs/iPhone/idoubs/branches/2.0;
+				OTHER_CFLAGS = (
+					"-DTI_POST_1_2",
+					"-DNS_BLOCK_ASSERTIONS=1",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lsrtp",
+					"-lssl",
+					"-lcrypto",
+					"-ltheora",
+					"-lvorbis",
+					"-logg",
+					"-lyuv",
+					"-lvpx",
+					"-lx264",
+					"-lswscale",
+					"-lavcore",
+					"-lavutil",
+					"-lavcodec",
+					"-lg729b",
+					"-lspeex",
+					"-lspeexdsp",
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = AkylasSip;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "armv6 armv7 i386";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/AkylasSip.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AkylasSip_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = AkylasSip;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				DSTROOT = /tmp/AkylasSip.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AkylasSip_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = AkylasSip;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "akylas_sip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "akylas_sip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

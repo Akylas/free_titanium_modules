@@ -1,0 +1,70 @@
+Takylas_sip
+v5
+r1
+cCheck dependencies
+cProcessPCH /var/folders/fp/s81nw0js6dqbbh6jl4_p1qqw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AkylasSip_Prefix-edyuouwacnstwzdkphqudhhioxbp/AkylasSip_Prefix.pch.gch AkylasSip_Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+cProcessPCH++ /var/folders/fp/s81nw0js6dqbbh6jl4_p1qqw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AkylasSip_Prefix-bttdkollsabvriehanhveqxhhptt/AkylasSip_Prefix.pch.gch AkylasSip_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvmgcc42
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c0000000050A28C0F00000000000015F7
+t1352829967
+s5623
+
+N/Volumes/data/dev/titanium/modules/akylas_modules/sip/ios/AkylasSip_Prefix.pch
+c00000000503B6575000000000000003E
+t1346069877
+s62
+i<Foundation/Foundation.h>
+
+N/Volumes/data/dev/titanium/modules/akylas_modules/sip/ios/build/Release-iphoneos/libAkylasSip.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/var/folders/fp/s81nw0js6dqbbh6jl4_p1qqw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AkylasSip_Prefix-bttdkollsabvriehanhveqxhhptt/AkylasSip_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/fp/s81nw0js6dqbbh6jl4_p1qqw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AkylasSip_Prefix-edyuouwacnstwzdkphqudhhioxbp/AkylasSip_Prefix.pch.gch
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies2c48471c2d7ab641^44bfaa1c2d7ab641^-260"warning: no rule to process file '$(PROJECT_DIR)/Classes/AkylasSipModule.m' of type sourcecode.cpp.objcpp for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/AkylasSipModuleAssets.m' of type sourcecode.c.objc for architecture armv62(21%IDEActivityLogMessage2@128"Warning: no rule to process file '$(PROJECT_DIR)/Classes/AkylasSipModule.m' of type sourcecode.cpp.objcpp for architecture armv6-377105692#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@130"Warning: no rule to process file '$(PROJECT_DIR)/Classes/AkylasSipModuleAssets.m' of type sourcecode.c.objc for architecture armv6-377105692#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#0#--18"Check dependencies36"8EA930B0-023E-4B21-9F7F-9AD226BC9DDF-
+
+CCompileC build/akylas_sip.build/Release-iphoneos/akylas_sip.build/Objects-normal/armv7/AkylasSipModule.o /Volumes/data/dev/titanium/modules/akylas_modules/sip/ios/Classes/AkylasSipModule.m normal armv7 objective-c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/akylas_sip.build/Release-iphoneos/akylas_sip.build/Objects-normal/armv7/AkylasSipModuleAssets.o /Volumes/data/dev/titanium/modules/akylas_modules/sip/ios/Classes/AkylasSipModuleAssets.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CLibtool /Volumes/data/dev/titanium/modules/akylas_modules/sip/ios/build/akylas_sip.build/Release-iphoneos/akylas_sip.build/Objects-normal/armv7/libAkylasSip.a normal armv7
+r0
+
+CProcessPCH /var/folders/fp/s81nw0js6dqbbh6jl4_p1qqw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AkylasSip_Prefix-edyuouwacnstwzdkphqudhhioxbp/AkylasSip_Prefix.pch.gch AkylasSip_Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+s377105692.676051
+e377105693.333234
+r1
+xProcessPCH
+x/var/folders/fp/s81nw0js6dqbbh6jl4_p1qqw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AkylasSip_Prefix-edyuouwacnstwzdkphqudhhioxbp/AkylasSip_Prefix.pch.gch
+xAkylasSip_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile AkylasSip_Prefix.pchb725ae1c2d7ab641^374f551d2d7ab641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Volumes/data/dev/titanium/modules/akylas_modules/sip/ios/AkylasSip_Prefix.pch0000000000000000^3331"ProcessPCH /var/folders/fp/s81nw0js6dqbbh6jl4_p1qqw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AkylasSip_Prefix-edyuouwacnstwzdkphqudhhioxbp/AkylasSip_Prefix.pch.gch AkylasSip_Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Volumes/data/dev/titanium/modules/akylas_modules/sip/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DTI_VERSION= -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Volumes/data/dev/titanium/modules/akylas_modules/sip/ios/build/akylas_sip.build/Release-iphoneos/akylas_sip.build/AkylasSip-generated-files.hmap -I/Volumes/data/dev/titanium/modules/akylas_modules/sip/ios/build/akylas_sip.build/Release-iphoneos/akylas_sip.build/AkylasSip-own-target-headers.hmap -I/Volumes/data/dev/titanium/modules/akylas_modules/sip/ios/build/akylas_sip.build/Release-iphoneos/akylas_sip.build/AkylasSip-all-target-headers.hmap -iquote /Volumes/data/dev/titanium/modules/akylas_modules/sip/ios/build/akylas_sip.build/Release-iphoneos/akylas_sip.build/AkylasSip-project-headers.hmap -I/Volumes/data/dev/titanium/modules/akylas_modules/sip/ios/build/Release-iphoneos/include "-I/Volumes/data/mguillon/Library/Application Support/Titanium/mobilesdk/osx/3.1.0/iphone/include" "-I/Volumes/data/mguillon/Library/Application Support/Titanium/mobilesdk/osx/3.1.0/iphone/include/TiCore" -I../../../mydoubs/iPhone/idoubs/branches/2.0/common-ngn-stack -I../../../mydoubs/iPhone/idoubs/branches/2.0/ios-ngn-stack -I../../../mydoubs/doubango/branches/2.0/doubango/bindings/_common -I../../../mydoubs/doubango/branches/2.0/doubango/tinySDP/include -I../../../mydoubs/doubango/branches/2.0/doubango/tinySMS/include -I../../../mydoubs/doubango/branches/2.0/doubango/tinyHTTP/include -I../../../mydoubs/doubango/branches/2.0/doubango/tinySIP/include -I../../../mydoubs/doubango/branches/2.0/doubango/tinyMSRP/include -I../../../mydoubs/doubango/branches/2.0/doubango/tinyMEDIA/include -I../../../mydoubs/doubango/branches/2.0/doubango/tinyNET/src -I../../../mydoubs/doubango/branches/2.0/doubango/tinySAK/src -I../../../mydoubs/doubango/branches/2.0/doubango/tinyDAV/include -I/Volumes/data/dev/titanium/modules/akylas_modules/sip/ios/build/akylas_sip.build/Release-iphoneos/akylas_sip.build/DerivedSources/armv7 -I/Volumes/data/dev/titanium/modules/akylas_modules/sip/ios/build/akylas_sip.build/Release-iphoneos/akylas_sip.build/DerivedSources -F/Volumes/data/dev/titanium/modules/akylas_modules/sip/ios/build/Release-iphoneos -DTI_POST_1_2 -DNS_BLOCK_ASSERTIONS=1 -c /Volumes/data/dev/titanium/modules/akylas_modules/sip/ios/AkylasSip_Prefix.pch -o /var/folders/fp/s81nw0js6dqbbh6jl4_p1qqw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AkylasSip_Prefix-edyuouwacnstwzdkphqudhhioxbp/AkylasSip_Prefix.pch.gch36"ECC5109E-6747-4EB1-B3A5-682C7E281E9C-
+
+CProcessPCH++ /var/folders/fp/s81nw0js6dqbbh6jl4_p1qqw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AkylasSip_Prefix-bttdkollsabvriehanhveqxhhptt/AkylasSip_Prefix.pch.gch AkylasSip_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvmgcc42
+s377105692.676060
+e377105693.484439
+r1
+xProcessPCH++
+x/var/folders/fp/s81nw0js6dqbbh6jl4_p1qqw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AkylasSip_Prefix-bttdkollsabvriehanhveqxhhptt/AkylasSip_Prefix.pch.gch
+xAkylasSip_Prefix.pch
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile AkylasSip_Prefix.pchd925ae1c2d7ab641^64047c1d2d7ab641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Volumes/data/dev/titanium/modules/akylas_modules/sip/ios/AkylasSip_Prefix.pch0000000000000000^3328"ProcessPCH++ /var/folders/fp/s81nw0js6dqbbh6jl4_p1qqw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AkylasSip_Prefix-bttdkollsabvriehanhveqxhhptt/AkylasSip_Prefix.pch.gch AkylasSip_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvmgcc42    cd /Volumes/data/dev/titanium/modules/akylas_modules/sip/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++-header -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -Wunused-function -DTI_VERSION= -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Volumes/data/dev/titanium/modules/akylas_modules/sip/ios/build/akylas_sip.build/Release-iphoneos/akylas_sip.build/AkylasSip-generated-files.hmap -I/Volumes/data/dev/titanium/modules/akylas_modules/sip/ios/build/akylas_sip.build/Release-iphoneos/akylas_sip.build/AkylasSip-own-target-headers.hmap -I/Volumes/data/dev/titanium/modules/akylas_modules/sip/ios/build/akylas_sip.build/Release-iphoneos/akylas_sip.build/AkylasSip-all-target-headers.hmap -iquote /Volumes/data/dev/titanium/modules/akylas_modules/sip/ios/build/akylas_sip.build/Release-iphoneos/akylas_sip.build/AkylasSip-project-headers.hmap -I/Volumes/data/dev/titanium/modules/akylas_modules/sip/ios/build/Release-iphoneos/include "-I/Volumes/data/mguillon/Library/Application Support/Titanium/mobilesdk/osx/3.1.0/iphone/include" "-I/Volumes/data/mguillon/Library/Application Support/Titanium/mobilesdk/osx/3.1.0/iphone/include/TiCore" -I../../../mydoubs/iPhone/idoubs/branches/2.0/common-ngn-stack -I../../../mydoubs/iPhone/idoubs/branches/2.0/ios-ngn-stack -I../../../mydoubs/doubango/branches/2.0/doubango/bindings/_common -I../../../mydoubs/doubango/branches/2.0/doubango/tinySDP/include -I../../../mydoubs/doubango/branches/2.0/doubango/tinySMS/include -I../../../mydoubs/doubango/branches/2.0/doubango/tinyHTTP/include -I../../../mydoubs/doubango/branches/2.0/doubango/tinySIP/include -I../../../mydoubs/doubango/branches/2.0/doubango/tinyMSRP/include -I../../../mydoubs/doubango/branches/2.0/doubango/tinyMEDIA/include -I../../../mydoubs/doubango/branches/2.0/doubango/tinyNET/src -I../../../mydoubs/doubango/branches/2.0/doubango/tinySAK/src -I../../../mydoubs/doubango/branches/2.0/doubango/tinyDAV/include -I/Volumes/data/dev/titanium/modules/akylas_modules/sip/ios/build/akylas_sip.build/Release-iphoneos/akylas_sip.build/DerivedSources/armv7 -I/Volumes/data/dev/titanium/modules/akylas_modules/sip/ios/build/akylas_sip.build/Release-iphoneos/akylas_sip.build/DerivedSources -F/Volumes/data/dev/titanium/modules/akylas_modules/sip/ios/build/Release-iphoneos -DTI_POST_1_2 -DNS_BLOCK_ASSERTIONS=1 -c /Volumes/data/dev/titanium/modules/akylas_modules/sip/ios/AkylasSip_Prefix.pch -o /var/folders/fp/s81nw0js6dqbbh6jl4_p1qqw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AkylasSip_Prefix-bttdkollsabvriehanhveqxhhptt/AkylasSip_Prefix.pch.gch36"C1E7F336-69F4-408E-AD6F-8906FA671457-
+
