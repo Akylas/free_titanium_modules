@@ -28,6 +28,21 @@
 		24DE9E1211C5FE74003F90F6 /* AkylasSipModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* AkylasSipModuleAssets.m */; };
 		AA747D9F0F9514B9006C5449 /* AkylasSip_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* AkylasSip_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		D5D8E45216AFE26800B46DBA /* libios_ngn_stack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D56626AF1605C562003E892C /* libios_ngn_stack.a */; };
+		D5D8E45A16AFE2CD00B46DBA /* libtinyDAV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D56626C91605C562003E892C /* libtinyDAV.a */; };
+		D5D8E45B16AFE2CD00B46DBA /* libtinyHTTP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D56626BD1605C562003E892C /* libtinyHTTP.a */; };
+		D5D8E45C16AFE2CD00B46DBA /* libtinyIPSec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D56626B91605C562003E892C /* libtinyIPSec.a */; };
+		D5D8E45D16AFE2CD00B46DBA /* libtinyMEDIA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D56626BF1605C562003E892C /* libtinyMEDIA.a */; };
+		D5D8E45E16AFE2CD00B46DBA /* libtinyMSRP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D56626BB1605C562003E892C /* libtinyMSRP.a */; };
+		D5D8E45F16AFE2CD00B46DBA /* libtinyNET.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D56626B31605C562003E892C /* libtinyNET.a */; };
+		D5D8E46016AFE2CD00B46DBA /* libtinyRTP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D56626B71605C562003E892C /* libtinyRTP.a */; };
+		D5D8E46116AFE2CD00B46DBA /* libtinySAK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D56626B11605C562003E892C /* libtinySAK.a */; };
+		D5D8E46216AFE2CD00B46DBA /* libtinySDP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D56626B51605C562003E892C /* libtinySDP.a */; };
+		D5D8E46316AFE2CD00B46DBA /* libtinySIGCOMP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D56626C11605C562003E892C /* libtinySIGCOMP.a */; };
+		D5D8E46416AFE2CD00B46DBA /* libtinySIP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D56626C71605C562003E892C /* libtinySIP.a */; };
+		D5D8E46516AFE2CD00B46DBA /* libtinySMS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D56626C31605C562003E892C /* libtinySMS.a */; };
+		D5D8E46616AFE2CD00B46DBA /* libtinyWRAP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D56626CB1605C562003E892C /* libtinyWRAP.a */; };
+		D5D8E46716AFE2CD00B46DBA /* libtinyXCAP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D56626C51605C562003E892C /* libtinyXCAP.a */; };
 		D5FCCEB915E4CD9B00BFA9D2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCEB815E4CD9B00BFA9D2 /* OpenGLES.framework */; };
 		D5FCCEBB15E4CDB100BFA9D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCEBA15E4CDB100BFA9D2 /* UIKit.framework */; };
 		D5FCCEBD15E4CDB700BFA9D2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCEBC15E4CDB700BFA9D2 /* CFNetwork.framework */; };
@@ -194,6 +209,111 @@
 			remoteGlobalIDString = ECFDFB0F13A9675700D4C62A;
 			remoteInfo = testPresence;
 		};
+		D5D8E45316AFE27100B46DBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = "ios-ngn-stack";
+		};
+		D5D8E46816AFE2D200B46DBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFD2425135D584100E6A9A3;
+			remoteInfo = tinySAK;
+		};
+		D5D8E46A16AFE2D200B46DBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFD24EC135D58EB00E6A9A3;
+			remoteInfo = tinyNET;
+		};
+		D5D8E46C16AFE2D200B46DBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFD25F6135D5CD100E6A9A3;
+			remoteInfo = tinySDP;
+		};
+		D5D8E46E16AFE2D200B46DBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFD2692135D5DDD00E6A9A3;
+			remoteInfo = tinyRTP;
+		};
+		D5D8E47016AFE2D200B46DBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFD2766135E79B800E6A9A3;
+			remoteInfo = tinyIPSec;
+		};
+		D5D8E47216AFE2D200B46DBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFD279A135E7A0200E6A9A3;
+			remoteInfo = tinyMSRP;
+		};
+		D5D8E47416AFE2D200B46DBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFD2850135E7ABA00E6A9A3;
+			remoteInfo = tinyHTTP;
+		};
+		D5D8E47616AFE2D200B46DBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFD2CDD135E7C7D00E6A9A3;
+			remoteInfo = tinyMEDIA;
+		};
+		D5D8E47816AFE2D200B46DBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFD2D59135E7CD800E6A9A3;
+			remoteInfo = tinySIGCOMP;
+		};
+		D5D8E47A16AFE2D200B46DBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFD2E01135E7D1000E6A9A3;
+			remoteInfo = tinySMS;
+		};
+		D5D8E47C16AFE2D200B46DBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFD2E5A135E7D3600E6A9A3;
+			remoteInfo = tinyXCAP;
+		};
+		D5D8E47E16AFE2D200B46DBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFD2E99135E7D6D00E6A9A3;
+			remoteInfo = tinySIP;
+		};
+		D5D8E48016AFE2D200B46DBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFD3170135E7DA100E6A9A3;
+			remoteInfo = tinyDAV;
+		};
+		D5D8E48216AFE2D200B46DBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ECFD32AD135E821000E6A9A3;
+			remoteInfo = tinyWRAP;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -224,6 +344,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5D8E45A16AFE2CD00B46DBA /* libtinyDAV.a in Frameworks */,
+				D5D8E45B16AFE2CD00B46DBA /* libtinyHTTP.a in Frameworks */,
+				D5D8E45C16AFE2CD00B46DBA /* libtinyIPSec.a in Frameworks */,
+				D5D8E45D16AFE2CD00B46DBA /* libtinyMEDIA.a in Frameworks */,
+				D5D8E45E16AFE2CD00B46DBA /* libtinyMSRP.a in Frameworks */,
+				D5D8E45F16AFE2CD00B46DBA /* libtinyNET.a in Frameworks */,
+				D5D8E46016AFE2CD00B46DBA /* libtinyRTP.a in Frameworks */,
+				D5D8E46116AFE2CD00B46DBA /* libtinySAK.a in Frameworks */,
+				D5D8E46216AFE2CD00B46DBA /* libtinySDP.a in Frameworks */,
+				D5D8E46316AFE2CD00B46DBA /* libtinySIGCOMP.a in Frameworks */,
+				D5D8E46416AFE2CD00B46DBA /* libtinySIP.a in Frameworks */,
+				D5D8E46516AFE2CD00B46DBA /* libtinySMS.a in Frameworks */,
+				D5D8E46616AFE2CD00B46DBA /* libtinyWRAP.a in Frameworks */,
+				D5D8E46716AFE2CD00B46DBA /* libtinyXCAP.a in Frameworks */,
+				D5D8E45216AFE26800B46DBA /* libios_ngn_stack.a in Frameworks */,
 				D5FCCECB15E4CDFB00BFA9D2 /* libresolv.dylib in Frameworks */,
 				D5FCCEC915E4CDF500BFA9D2 /* libsqlite3.0.dylib in Frameworks */,
 				D5FCCEC715E4CDDE00BFA9D2 /* SystemConfiguration.framework in Frameworks */,
@@ -354,6 +489,21 @@
 			buildRules = (
 			);
 			dependencies = (
+				D5D8E46916AFE2D200B46DBA /* PBXTargetDependency */,
+				D5D8E46B16AFE2D200B46DBA /* PBXTargetDependency */,
+				D5D8E46D16AFE2D200B46DBA /* PBXTargetDependency */,
+				D5D8E46F16AFE2D200B46DBA /* PBXTargetDependency */,
+				D5D8E47116AFE2D200B46DBA /* PBXTargetDependency */,
+				D5D8E47316AFE2D200B46DBA /* PBXTargetDependency */,
+				D5D8E47516AFE2D200B46DBA /* PBXTargetDependency */,
+				D5D8E47716AFE2D200B46DBA /* PBXTargetDependency */,
+				D5D8E47916AFE2D200B46DBA /* PBXTargetDependency */,
+				D5D8E47B16AFE2D200B46DBA /* PBXTargetDependency */,
+				D5D8E47D16AFE2D200B46DBA /* PBXTargetDependency */,
+				D5D8E47F16AFE2D200B46DBA /* PBXTargetDependency */,
+				D5D8E48116AFE2D200B46DBA /* PBXTargetDependency */,
+				D5D8E48316AFE2D200B46DBA /* PBXTargetDependency */,
+				D5D8E45416AFE27100B46DBA /* PBXTargetDependency */,
 			);
 			name = akylas_sip;
 			productName = akylas_sip;
@@ -575,6 +725,81 @@
 			isa = PBXTargetDependency;
 			target = D2AAC07D0554694100DB518D /* akylas_sip */;
 			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+		D5D8E45416AFE27100B46DBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ios-ngn-stack";
+			targetProxy = D5D8E45316AFE27100B46DBA /* PBXContainerItemProxy */;
+		};
+		D5D8E46916AFE2D200B46DBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinySAK;
+			targetProxy = D5D8E46816AFE2D200B46DBA /* PBXContainerItemProxy */;
+		};
+		D5D8E46B16AFE2D200B46DBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinyNET;
+			targetProxy = D5D8E46A16AFE2D200B46DBA /* PBXContainerItemProxy */;
+		};
+		D5D8E46D16AFE2D200B46DBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinySDP;
+			targetProxy = D5D8E46C16AFE2D200B46DBA /* PBXContainerItemProxy */;
+		};
+		D5D8E46F16AFE2D200B46DBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinyRTP;
+			targetProxy = D5D8E46E16AFE2D200B46DBA /* PBXContainerItemProxy */;
+		};
+		D5D8E47116AFE2D200B46DBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinyIPSec;
+			targetProxy = D5D8E47016AFE2D200B46DBA /* PBXContainerItemProxy */;
+		};
+		D5D8E47316AFE2D200B46DBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinyMSRP;
+			targetProxy = D5D8E47216AFE2D200B46DBA /* PBXContainerItemProxy */;
+		};
+		D5D8E47516AFE2D200B46DBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinyHTTP;
+			targetProxy = D5D8E47416AFE2D200B46DBA /* PBXContainerItemProxy */;
+		};
+		D5D8E47716AFE2D200B46DBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinyMEDIA;
+			targetProxy = D5D8E47616AFE2D200B46DBA /* PBXContainerItemProxy */;
+		};
+		D5D8E47916AFE2D200B46DBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinySIGCOMP;
+			targetProxy = D5D8E47816AFE2D200B46DBA /* PBXContainerItemProxy */;
+		};
+		D5D8E47B16AFE2D200B46DBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinySMS;
+			targetProxy = D5D8E47A16AFE2D200B46DBA /* PBXContainerItemProxy */;
+		};
+		D5D8E47D16AFE2D200B46DBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinyXCAP;
+			targetProxy = D5D8E47C16AFE2D200B46DBA /* PBXContainerItemProxy */;
+		};
+		D5D8E47F16AFE2D200B46DBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinySIP;
+			targetProxy = D5D8E47E16AFE2D200B46DBA /* PBXContainerItemProxy */;
+		};
+		D5D8E48116AFE2D200B46DBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinyDAV;
+			targetProxy = D5D8E48016AFE2D200B46DBA /* PBXContainerItemProxy */;
+		};
+		D5D8E48316AFE2D200B46DBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tinyWRAP;
+			targetProxy = D5D8E48216AFE2D200B46DBA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
