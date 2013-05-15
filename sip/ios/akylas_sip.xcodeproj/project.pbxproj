@@ -354,9 +354,9 @@
 				D5D8E46116AFE2CD00B46DBA /* libtinySAK.a in Frameworks */,
 				D5D8E46216AFE2CD00B46DBA /* libtinySDP.a in Frameworks */,
 				D5D8E46316AFE2CD00B46DBA /* libtinySIGCOMP.a in Frameworks */,
+				D5D8E46616AFE2CD00B46DBA /* libtinyWRAP.a in Frameworks */,
 				D5D8E46416AFE2CD00B46DBA /* libtinySIP.a in Frameworks */,
 				D5D8E46516AFE2CD00B46DBA /* libtinySMS.a in Frameworks */,
-				D5D8E46616AFE2CD00B46DBA /* libtinyWRAP.a in Frameworks */,
 				D5D8E46716AFE2CD00B46DBA /* libtinyXCAP.a in Frameworks */,
 				D5D8E45216AFE26800B46DBA /* libios_ngn_stack.a in Frameworks */,
 				D5FCCECB15E4CDFB00BFA9D2 /* libresolv.dylib in Frameworks */,
@@ -808,15 +808,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				"ARCHS[sdk=iphoneos*]" = (
-					armv6,
-					armv7,
-				);
-				"ARCHS[sdk=iphonesimulator*]" = i386;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -865,7 +856,6 @@
 					"-DTI_POST_1_2",
 				);
 				OTHER_LDFLAGS = (
-					"-ObjC",
 					"-lsrtp",
 					"-lssl",
 					"-lcrypto",
@@ -876,9 +866,9 @@
 					"-lvpx",
 					"-lx264",
 					"-lswscale",
-					"-lavcore",
 					"-lavutil",
 					"-lavcodec",
+					"-lopus",
 					"-lg729b",
 					"-lspeex",
 					"-lspeexdsp",
@@ -894,7 +884,6 @@
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
-				VALID_ARCHS = "armv6 armv7 i386";
 			};
 			name = Debug;
 		};
@@ -903,15 +892,6 @@
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				"ARCHS[sdk=iphoneos*]" = (
-					armv6,
-					armv7,
-				);
-				"ARCHS[sdk=iphonesimulator*]" = i386;
 				DOUBANGO_HOME = ../../../mydoubs/doubango/branches/2.0/doubango;
 				DOUBANGO_LIBS = $DOUBANGO_HOME/thirdparties/iphone/lib/i386;
 				"DOUBANGO_LIBS[arch=armv6]" = $DOUBANGO_HOME/thirdparties/iphone/lib/armv6;
@@ -958,7 +938,6 @@
 					"-DNS_BLOCK_ASSERTIONS=1",
 				);
 				OTHER_LDFLAGS = (
-					"-ObjC",
 					"-lsrtp",
 					"-lssl",
 					"-lcrypto",
@@ -969,9 +948,9 @@
 					"-lvpx",
 					"-lx264",
 					"-lswscale",
-					"-lavcore",
 					"-lavutil",
 					"-lavcodec",
+					"-lopus",
 					"-lg729b",
 					"-lspeex",
 					"-lspeexdsp",
@@ -985,7 +964,6 @@
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
-				VALID_ARCHS = "armv6 armv7 i386";
 			};
 			name = Release;
 		};
@@ -1032,6 +1010,7 @@
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "armv7 armv7s i386";
 			};
 			name = Debug;
 		};
@@ -1073,6 +1052,7 @@
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "armv7 armv7s i386";
 			};
 			name = Release;
 		};
