@@ -43,6 +43,7 @@
 		D5D8E46516AFE2CD00B46DBA /* libtinySMS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D56626C31605C562003E892C /* libtinySMS.a */; };
 		D5D8E46616AFE2CD00B46DBA /* libtinyWRAP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D56626CB1605C562003E892C /* libtinyWRAP.a */; };
 		D5D8E46716AFE2CD00B46DBA /* libtinyXCAP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D56626C51605C562003E892C /* libtinyXCAP.a */; };
+		D5EA4AB418EEFD50001F67E8 /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EA4AB118EEF107001F67E8 /* libresolv.dylib */; };
 		D5FCCEB915E4CD9B00BFA9D2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCEB815E4CD9B00BFA9D2 /* OpenGLES.framework */; };
 		D5FCCEBB15E4CDB100BFA9D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCEBA15E4CDB100BFA9D2 /* UIKit.framework */; };
 		D5FCCEBD15E4CDB700BFA9D2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCEBC15E4CDB700BFA9D2 /* CFNetwork.framework */; };
@@ -50,8 +51,6 @@
 		D5FCCEC315E4CDD200BFA9D2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCEC215E4CDD200BFA9D2 /* CoreMedia.framework */; };
 		D5FCCEC515E4CDD700BFA9D2 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCEC415E4CDD700BFA9D2 /* CoreVideo.framework */; };
 		D5FCCEC715E4CDDE00BFA9D2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCEC615E4CDDE00BFA9D2 /* SystemConfiguration.framework */; };
-		D5FCCEC915E4CDF500BFA9D2 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCEC815E4CDF500BFA9D2 /* libsqlite3.0.dylib */; };
-		D5FCCECB15E4CDFB00BFA9D2 /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCCECA15E4CDFB00BFA9D2 /* libresolv.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -327,6 +326,7 @@
 		D2AAC07E0554694100DB518D /* libAkylasSip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAkylasSip.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "ios-ngn-stack.xcodeproj"; path = "../../../mydoubs/iPhone/idoubs/branches/2.0/ios-ngn-stack/ios-ngn-stack.xcodeproj"; sourceTree = "<group>"; };
 		D58A0F8015E5293000D731C5 /* module.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = module.xcconfig; sourceTree = "<group>"; };
+		D5EA4AB118EEF107001F67E8 /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
 		D5FCCEB815E4CD9B00BFA9D2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		D5FCCEBA15E4CDB100BFA9D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D5FCCEBC15E4CDB700BFA9D2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -335,8 +335,6 @@
 		D5FCCEC215E4CDD200BFA9D2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		D5FCCEC415E4CDD700BFA9D2 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		D5FCCEC615E4CDDE00BFA9D2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		D5FCCEC815E4CDF500BFA9D2 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
-		D5FCCECA15E4CDFB00BFA9D2 /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -344,6 +342,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5EA4AB418EEFD50001F67E8 /* libresolv.dylib in Frameworks */,
 				D5D8E45A16AFE2CD00B46DBA /* libtinyDAV.a in Frameworks */,
 				D5D8E45B16AFE2CD00B46DBA /* libtinyHTTP.a in Frameworks */,
 				D5D8E45C16AFE2CD00B46DBA /* libtinyIPSec.a in Frameworks */,
@@ -359,8 +358,6 @@
 				D5D8E46516AFE2CD00B46DBA /* libtinySMS.a in Frameworks */,
 				D5D8E46716AFE2CD00B46DBA /* libtinyXCAP.a in Frameworks */,
 				D5D8E45216AFE26800B46DBA /* libios_ngn_stack.a in Frameworks */,
-				D5FCCECB15E4CDFB00BFA9D2 /* libresolv.dylib in Frameworks */,
-				D5FCCEC915E4CDF500BFA9D2 /* libsqlite3.0.dylib in Frameworks */,
 				D5FCCEC715E4CDDE00BFA9D2 /* SystemConfiguration.framework in Frameworks */,
 				D5FCCEC515E4CDD700BFA9D2 /* CoreVideo.framework in Frameworks */,
 				D5FCCEC315E4CDD200BFA9D2 /* CoreMedia.framework in Frameworks */,
@@ -386,8 +383,6 @@
 		0867D691FE84028FC02AAC07 /* akylas_sip */ = {
 			isa = PBXGroup;
 			children = (
-				D5FCCECA15E4CDFB00BFA9D2 /* libresolv.dylib */,
-				D5FCCEC815E4CDF500BFA9D2 /* libsqlite3.0.dylib */,
 				D566268C1605C561003E892C /* ios-ngn-stack.xcodeproj */,
 				D5FCCEC615E4CDDE00BFA9D2 /* SystemConfiguration.framework */,
 				D5FCCEC415E4CDD700BFA9D2 /* CoreVideo.framework */,
@@ -408,6 +403,7 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D5EA4AB118EEF107001F67E8 /* libresolv.dylib */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -489,6 +485,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				D5D8E45416AFE27100B46DBA /* PBXTargetDependency */,
 				D5D8E46916AFE2D200B46DBA /* PBXTargetDependency */,
 				D5D8E46B16AFE2D200B46DBA /* PBXTargetDependency */,
 				D5D8E46D16AFE2D200B46DBA /* PBXTargetDependency */,
@@ -503,7 +500,6 @@
 				D5D8E47F16AFE2D200B46DBA /* PBXTargetDependency */,
 				D5D8E48116AFE2D200B46DBA /* PBXTargetDependency */,
 				D5D8E48316AFE2D200B46DBA /* PBXTargetDependency */,
-				D5D8E45416AFE27100B46DBA /* PBXTargetDependency */,
 			);
 			name = akylas_sip;
 			productName = akylas_sip;
@@ -515,6 +511,8 @@
 /* Begin PBXProject section */
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "akylas_sip" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
@@ -815,6 +813,7 @@
 				DOUBANGO_LIBS = $DOUBANGO_HOME/thirdparties/iphone/lib/i386;
 				"DOUBANGO_LIBS[arch=armv6]" = $DOUBANGO_HOME/thirdparties/iphone/lib/armv6;
 				"DOUBANGO_LIBS[arch=armv7]" = $DOUBANGO_HOME/thirdparties/iphone/lib/armv7;
+				"DOUBANGO_LIBS[arch=armv7s]" = $DOUBANGO_HOME/thirdparties/iphone/lib/armv7s;
 				"DOUBANGO_LIBS[sdk=iphonesimulator*]" = $DOUBANGO_HOME/thirdparties/iphone/lib/i386;
 				DSTROOT = /tmp/AkylasSip.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
@@ -823,7 +822,6 @@
 				GCC_PREFIX_HEADER = AkylasSip_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = NO;
 				GCC_WARN_MISSING_PARENTHESES = NO;
 				GCC_WARN_SHADOW = NO;
@@ -849,41 +847,18 @@
 					$DOUBANGO_HOME/tinyDAV/include,
 				);
 				INSTALL_PATH = /usr/local/lib;
-				LIBRARY_SEARCH_PATHS = $DOUBANGO_LIBS;
 				NGN_STACK_HOME = ../../../mydoubs/iPhone/idoubs/branches/2.0;
 				OTHER_CFLAGS = (
 					"-DDEBUG",
 					"-DTI_POST_1_2",
-				);
-				OTHER_LDFLAGS = (
-					"-lsrtp",
-					"-lssl",
-					"-lcrypto",
-					"-ltheora",
-					"-lvorbis",
-					"-logg",
-					"-lyuv",
-					"-lvpx",
-					"-lx264",
-					"-lswscale",
-					"-lavutil",
-					"-lavcodec",
-					"-lopus",
-					"-lg729b",
-					"-lspeex",
-					"-lspeexdsp",
-					"-framework",
-					Foundation,
-					"-framework",
-					UIKit,
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = AkylasSip;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
-				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "armv7 armv6 i386";
 			};
 			name = Debug;
 		};
@@ -896,6 +871,7 @@
 				DOUBANGO_LIBS = $DOUBANGO_HOME/thirdparties/iphone/lib/i386;
 				"DOUBANGO_LIBS[arch=armv6]" = $DOUBANGO_HOME/thirdparties/iphone/lib/armv6;
 				"DOUBANGO_LIBS[arch=armv7]" = $DOUBANGO_HOME/thirdparties/iphone/lib/armv7;
+				"DOUBANGO_LIBS[arch=armv7s]" = $DOUBANGO_HOME/thirdparties/iphone/lib/armv7s;
 				"DOUBANGO_LIBS[sdk=iphonesimulator*]" = $DOUBANGO_HOME/thirdparties/iphone/lib/i386;
 				DSTROOT = /tmp/AkylasSip.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
@@ -904,7 +880,6 @@
 				GCC_PREFIX_HEADER = AkylasSip_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = NO;
 				GCC_WARN_MISSING_PARENTHESES = NO;
 				GCC_WARN_SHADOW = NO;
@@ -931,11 +906,67 @@
 				);
 				INSTALL_PATH = /usr/local/lib;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				LIBRARY_SEARCH_PATHS = $DOUBANGO_LIBS;
 				NGN_STACK_HOME = ../../../mydoubs/iPhone/idoubs/branches/2.0;
 				OTHER_CFLAGS = (
 					"-DTI_POST_1_2",
 					"-DNS_BLOCK_ASSERTIONS=1",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = AkylasSip;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "armv7 armv6 i386";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DOUBANGO_HOME = ../../../mydoubs/doubango/branches/2.0/doubango;
+				DOUBANGO_LIBS = $DOUBANGO_HOME/thirdparties/iphone/lib/i386;
+				"DOUBANGO_LIBS[arch=armv6]" = $DOUBANGO_HOME/thirdparties/iphone/lib/armv6;
+				"DOUBANGO_LIBS[arch=armv7]" = $DOUBANGO_HOME/thirdparties/iphone/lib/armv7;
+				"DOUBANGO_LIBS[sdk=iphonesimulator*][arch=*]" = $DOUBANGO_HOME/thirdparties/iphone/lib/i386;
+				DSTROOT = /tmp/AkylasSip.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AkylasSip_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(TITANIUM_BASE_SDK)",
+					"$(TITANIUM_BASE_SDK2)",
+					$IOS_NGN_STACK_HOME,
+					$DOUBANGO_HOME/bindings/,
+					"\n_common",
+					$DOUBANGO_HOME/tinySDP/include,
+					$DOUBANGO_HOME/tinySMS/include,
+					"\n$DOUBANGO_HOME/tinyHTTP/include",
+					$DOUBANGO_HOME/tinySIP/include,
+					"\n$DOUBANGO/HOME/tinyMSRP/include",
+					$DOUBANGO_HOME/tinyMEDIA/include,
+					"\n$DOUBANGO_HOME/tinyNET/src",
+					$DOUBANGO_HOME/tinySAK/src,
+					$DOUBANGO_HOME/,
+					"\ntinyDAV/include",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = $DOUBANGO_LIBS;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
 				);
 				OTHER_LDFLAGS = (
 					"-lsrtp",
@@ -951,6 +982,7 @@
 					"-lavutil",
 					"-lavcodec",
 					"-lopus",
+					"-lgsm",
 					"-lg729b",
 					"-lspeex",
 					"-lspeexdsp",
@@ -959,58 +991,12 @@
 					"-framework",
 					UIKit,
 				);
-				PREBINDING = NO;
-				PRODUCT_NAME = AkylasSip;
-				RUN_CLANG_STATIC_ANALYZER = NO;
-				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "";
-			};
-			name = Release;
-		};
-		1DEB922308733DC00010E9CD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
-			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				"ARCHS[sdk=iphoneos*]" = (
-					armv6,
-					armv7,
-				);
-				"ARCHS[sdk=iphonesimulator*]" = i386;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DSTROOT = /tmp/AkylasSip.dst;
-				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = AkylasSip_Prefix.pch;
-				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
-				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
-				GCC_VERSION = "";
-				GCC_WARN_ABOUT_RETURN_TYPE = NO;
-				GCC_WARN_MISSING_PARENTHESES = NO;
-				GCC_WARN_SHADOW = NO;
-				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_PARAMETER = NO;
-				GCC_WARN_UNUSED_VALUE = NO;
-				GCC_WARN_UNUSED_VARIABLE = NO;
-				INSTALL_PATH = /usr/local/lib;
-				OTHER_CFLAGS = (
-					"-DDEBUG",
-					"-DTI_POST_1_2",
-				);
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = AkylasSip;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
-				VALID_ARCHS = "armv7 armv7s i386";
 			};
 			name = Debug;
 		};
@@ -1019,15 +1005,11 @@
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					armv6,
-					armv7,
-				);
-				"ARCHS[sdk=iphoneos*]" = (
-					armv6,
-					armv7,
-				);
-				"ARCHS[sdk=iphonesimulator*]" = i386;
+				DOUBANGO_HOME = ../../../mydoubs/doubango/branches/2.0/doubango;
+				DOUBANGO_LIBS = $DOUBANGO_HOME/thirdparties/iphone/lib/i386;
+				"DOUBANGO_LIBS[arch=armv6]" = $DOUBANGO_HOME/thirdparties/iphone/lib/armv6;
+				"DOUBANGO_LIBS[arch=armv7]" = $DOUBANGO_HOME/thirdparties/iphone/lib/armv7;
+				"DOUBANGO_LIBS[sdk=iphonesimulator*][arch=*]" = $DOUBANGO_HOME/thirdparties/iphone/lib/i386;
 				DSTROOT = /tmp/AkylasSip.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
@@ -1035,7 +1017,6 @@
 				GCC_PREFIX_HEADER = AkylasSip_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
-				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = NO;
 				GCC_WARN_MISSING_PARENTHESES = NO;
 				GCC_WARN_SHADOW = NO;
@@ -1044,15 +1025,54 @@
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				GCC_WARN_UNUSED_VALUE = NO;
 				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(TITANIUM_BASE_SDK)",
+					"$(TITANIUM_BASE_SDK2)",
+					$IOS_NGN_STACK_HOME,
+					$DOUBANGO_HOME/bindings/,
+					"\n_common",
+					$DOUBANGO_HOME/tinySDP/include,
+					$DOUBANGO_HOME/tinySMS/include,
+					"\n$DOUBANGO_HOME/tinyHTTP/include",
+					$DOUBANGO_HOME/tinySIP/include,
+					"\n$DOUBANGO/HOME/tinyMSRP/include",
+					$DOUBANGO_HOME/tinyMEDIA/include,
+					"\n$DOUBANGO_HOME/tinyNET/src",
+					$DOUBANGO_HOME/tinySAK/src,
+					$DOUBANGO_HOME/,
+					"\ntinyDAV/include",
+				);
 				INSTALL_PATH = /usr/local/lib;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = $DOUBANGO_LIBS;
 				OTHER_CFLAGS = "-DTI_POST_1_2";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-lsrtp",
+					"-lssl",
+					"-lcrypto",
+					"-ltheora",
+					"-lvorbis",
+					"-logg",
+					"-lyuv",
+					"-lvpx",
+					"-lx264",
+					"-lswscale",
+					"-lavutil",
+					"-lavcodec",
+					"-lopus",
+					"-lgsm",
+					"-lg729b",
+					"-lspeex",
+					"-lspeexdsp",
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
 				PRODUCT_NAME = AkylasSip;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
-				VALID_ARCHS = "armv7 armv7s i386";
 			};
 			name = Release;
 		};
