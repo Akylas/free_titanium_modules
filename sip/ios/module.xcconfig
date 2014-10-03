@@ -25,4 +25,4 @@
 //
 // IMPORTANT NOTE: always use $(inherited) in your overrides
 // 
-OTHER_LDFLAGS=$(inherited) -lresolv -lsrtp -lssl -lcrypto -ltheora -lvorbis -logg -lyuv -lvpx -lx264 -lswscale -lavcore -lavutil -lavcodec -lopus -lgsm -lg729b -lspeex -lspeexdsp -framework Foundation -framework UIKit
+OTHER_LDFLAGS=$(inherited) -lresolv -framework Foundation -framework UIKit
